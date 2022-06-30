@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&family=Rajdhani:wght@300;400;500;600&display=swap');
+
+/*Global ------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* Body --------------------------------------------- */
+
+body {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(120deg, #f10cf1, #2e08d6);
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* header --------------------------------------------- */
+
+#flagContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+/* Relógio --------------------------------------------- */
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 220px;
+    width: 550px;
+
+    background: transparent;
+    border-radius: 3px;
+}

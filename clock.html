@@ -14,29 +14,60 @@
         <nav>
             <div id="flagContainer">
                 
-                <form action="" class="formFlags">
+                <form id="formFlags" action="" class="formFlags">
                     
-                    <input type="radio" id="brazil" name="flag" value="brazil">
+                    <input 
+                        onclick="setCurrentFlag('Brazil/East')" 
+                        type="radio" 
+                        id="brazil"
+                        name="flag" 
+                        value="brazil"
+                        checked="true"
+                    >
                     <label for="brazil">
                         <img src="./icons/brazil.png" alt="Bandeira do Brasil">
                     </label>
 
-                    <input type="radio" id="japan" name="flag" value="japan">
+                    <input 
+                        onclick="setCurrentFlag('Japan')" 
+                        type="radio" 
+                        id="japan" 
+                        name="flag" 
+                        value="japan"
+                    >
                     <label for="japan">
                         <img src="./icons/japan.png" alt=" Bandeira do Japão">
                     </label>
 
-                    <input type="radio" id="australia" name="flag" value="australia">
+                    <input 
+                        onclick="setCurrentFlag('Australia/Sydney')" 
+                        type="radio" 
+                        id="australia" 
+                        name="flag" 
+                        value="australia"
+                    >
                     <label for="australia">
                         <img src="./icons/australia.png" alt="Bandeira da Austrália">
                     </label>
 
-                    <input type="radio" id="england" name="flag" value="england">
+                    <input 
+                        onclick="setCurrentFlag('Europe/London')" 
+                        type="radio"
+                        id="england" 
+                        name="flag" 
+                        value="england"
+                     >
                     <label for="england">
                         <img src="./icons/england.png" alt="Bandeira da Inglaterra">
                     </label>
 
-                    <input type="radio" id="canada" name="flag" value="canada">
+                    <input 
+                        onclick="setCurrentFlag('Canada/Central')" 
+                        type="radio" 
+                        id="canada" 
+                        name="flag" 
+                        value="canada"
+                    >
                     <label for="canada">
                         <img src="./icons/canada.png" alt="Bandeira da Inglaterra">
                     </label>

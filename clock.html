@@ -13,15 +13,40 @@
     <header>
         <nav>
             <div id="flagContainer">
-                <h3><button>Brazil</button></h3>
-                <h3><button>Inglaterra</button></h3>
-                <h3><button>México</button></h3>
-                <h3><button>Japão</button></h3>
-                <h3><button>Austrália</button></h3>
+                
+                <form action="" class="formFlags">
+                    
+                    <input type="radio" id="brazil" name="flag" value="brazil">
+                    <label for="brazil">
+                        <img src="./icons/brazil.png" alt="Bandeira do Brasil">
+                    </label>
+
+                    <input type="radio" id="japan" name="flag" value="japan">
+                    <label for="japan">
+                        <img src="./icons/japan.png" alt=" Bandeira do Japão">
+                    </label>
+
+                    <input type="radio" id="australia" name="flag" value="australia">
+                    <label for="australia">
+                        <img src="./icons/australia.png" alt="Bandeira da Austrália">
+                    </label>
+
+                    <input type="radio" id="england" name="flag" value="england">
+                    <label for="england">
+                        <img src="./icons/england.png" alt="Bandeira da Inglaterra">
+                    </label>
+
+                    <input type="radio" id="canada" name="flag" value="canada">
+                    <label for="canada">
+                        <img src="./icons/canada.png" alt="Bandeira da Inglaterra">
+                    </label>
+
+                </form>
 
                 <a href="#">
                     <img height="30" width="30" src="./icons/clock-solid.svg" alt="Relógio">
-                </a>
+                </a> -->
+
             </div>
         </nav>
     </header>
@@ -33,18 +58,22 @@
                 <span class="time">Horas</span>
             </div>
             <div>
-                <span id="hours">00</span>
+                <span id="minuts">00</span>
                 <span class="time">Minutos</span>
             </div>
-    
-    
+
+
             <div>
                 <span id="sec">00</span>
                 <span class="time">Segundos</span>
             </div>
         </div>
     </main>
-    
+
+    <script src="./clock.js">
+
+    </script>
+
 
 </body>
 
